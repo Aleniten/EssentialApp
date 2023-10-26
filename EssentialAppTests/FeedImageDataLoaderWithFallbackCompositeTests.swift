@@ -31,14 +31,7 @@ class FeedImageDataLoaderWithFallbackComposite: FeedImageDataLoader {
             case .success:
                 completion(result)
             case .failure:
-                task.wrapped = self?.fallback.loadImageData(from: url) { fallbackResult in
-                    switch fallbackResult {
-                    case .success:
-                        completion(fallbackResult)
-                    case .failure:
-                        break
-                    }
-                }
+                task.wrapped = self?.fallback.loadImageData(from: url, completion: completion)
             }
         }
         return task
@@ -117,6 +110,14 @@ final class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
         })
     }
     
+    func test_loadImageData_deliversErrorOnPrimaryAndFallbackFailure() {
+        let (sut, primaryLoader, fallbackLoader) = makeSUT()
+        expect(sut, toCompleteWith: .failure(anyNSError()), when: {
+            primaryLoader.complete(with: anyNSError())
+            fallbackLoader.complete(with: anyNSError())
+        })
+    }
+    
     // MARK: Helpers
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedImageDataLoader, primary: LoaderSpy, fallback: LoaderSpy) {
         let primaryLoader = LoaderSpy()
@@ -134,7 +135,6 @@ final class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
             switch (receivedResult, expectedResult) {
             case let (.success(receivedResult), .success(expectedResult)):
                 XCTAssertEqual(receivedResult, expectedResult, file: file, line: line)
-                break
             case (.failure, .failure):
                 break
             default:

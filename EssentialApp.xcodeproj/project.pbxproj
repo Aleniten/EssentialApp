@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280651CA2AEAD55800635A2D /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280651C92AEAD55800635A2D /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		2882DBD82AEAC22600325932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882DBD72AEAC22600325932 /* AppDelegate.swift */; };
 		2882DBDA2AEAC22600325932 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882DBD92AEAC22600325932 /* SceneDelegate.swift */; };
 		2882DBDC2AEAC22600325932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2882DBDB2AEAC22600325932 /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280651C72AEAD55800635A2D /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280651C92AEAD55800635A2D /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		2882DBD42AEAC22600325932 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2882DBD72AEAC22600325932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2882DBD92AEAC22600325932 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		280651C42AEAD55800635A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2882DBD12AEAC22600325932 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280651C82AEAD55800635A2D /* EssentialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				280651C92AEAD55800635A2D /* FeedLoaderWithFallbackCompositeTests.swift */,
+			);
+			path = EssentialAppTests;
+			sourceTree = "<group>";
+		};
 		2882DBCB2AEAC22500325932 = {
 			isa = PBXGroup;
 			children = (
 				2882DBD62AEAC22600325932 /* EssentialApp */,
+				280651C82AEAD55800635A2D /* EssentialAppTests */,
 				2882DBD52AEAC22600325932 /* Products */,
 				2882DBEB2AEAC68700325932 /* Frameworks */,
 			);
@@ -73,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				2882DBD42AEAC22600325932 /* EssentialApp.app */,
+				280651C72AEAD55800635A2D /* EssentialAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		280651C62AEAD55800635A2D /* EssentialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280651CB2AEAD55800635A2D /* Build configuration list for PBXNativeTarget "EssentialAppTests" */;
+			buildPhases = (
+				280651C32AEAD55800635A2D /* Sources */,
+				280651C42AEAD55800635A2D /* Frameworks */,
+				280651C52AEAD55800635A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EssentialAppTests;
+			productName = EssentialAppTests;
+			productReference = 280651C72AEAD55800635A2D /* EssentialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2882DBD32AEAC22600325932 /* EssentialApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2882DBE82AEAC22700325932 /* Build configuration list for PBXNativeTarget "EssentialApp" */;
@@ -131,6 +168,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					280651C62AEAD55800635A2D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					2882DBD32AEAC22600325932 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -150,11 +190,19 @@
 			projectRoot = "";
 			targets = (
 				2882DBD32AEAC22600325932 /* EssentialApp */,
+				280651C62AEAD55800635A2D /* EssentialAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		280651C52AEAD55800635A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2882DBD22AEAC22600325932 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +216,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		280651C32AEAD55800635A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280651CA2AEAD55800635A2D /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2882DBD02AEAC22600325932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,6 +256,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		280651CC2AEAD55800635A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MUNMT98RZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herrero.EssentialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		280651CD2AEAD55800635A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MUNMT98RZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herrero.EssentialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2882DBE62AEAC22700325932 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -382,6 +478,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		280651CB2AEAD55800635A2D /* Build configuration list for PBXNativeTarget "EssentialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280651CC2AEAD55800635A2D /* Debug */,
+				280651CD2AEAD55800635A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2882DBCF2AEAC22500325932 /* Build configuration list for PBXProject "EssentialApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -22,6 +22,7 @@
 		28B46C502AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C4F2AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		28B46C532AEAEFD100D31BEE /* SharedFuncHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */; };
 		28B46C552AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */; };
+		28B46C572AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		28B46C4F2AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFuncHelpers.swift; sourceTree = "<group>"; };
 		28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+trackingForMemoryLeaks.swift"; sourceTree = "<group>"; };
+		28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		2882DBD62AEAC22600325932 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
+				28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				280651D12AEAE85100635A2D /* FeedLoaderWithFallbackComposite.swift */,
 				2882DBD72AEAC22600325932 /* AppDelegate.swift */,
 				2882DBD92AEAC22600325932 /* SceneDelegate.swift */,
@@ -269,6 +272,7 @@
 				2882DBD82AEAC22600325932 /* AppDelegate.swift in Sources */,
 				280651D22AEAE85100635A2D /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				2882DBDA2AEAC22600325932 /* SceneDelegate.swift in Sources */,
+				28B46C572AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

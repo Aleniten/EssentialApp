@@ -21,6 +21,7 @@
 		2882DBF22AEAC68D00325932 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2882DBF02AEAC68D00325932 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28B46C502AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C4F2AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift */; };
 		28B46C532AEAEFD100D31BEE /* SharedFuncHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */; };
+		28B46C552AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		2882DBF02AEAC68D00325932 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B46C4F2AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFuncHelpers.swift; sourceTree = "<group>"; };
+		28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+trackingForMemoryLeaks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */,
+				28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				28B46C502AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				28B46C532AEAEFD100D31BEE /* SharedFuncHelpers.swift in Sources */,
 				280651E32AEAEAF700635A2D /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				28B46C552AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

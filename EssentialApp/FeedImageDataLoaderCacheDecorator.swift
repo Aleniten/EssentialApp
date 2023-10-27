@@ -19,9 +19,15 @@ public final class FeedImageDataLoaderCacheDecorator: FeedImageDataLoader {
     public func loadImageData(from url: URL, completion: @escaping (FeedImageDataLoader.Result) -> Void) -> FeedImageDataLoaderTask {
         return decoratee.loadImageData(from: url) { [weak self] result in
             completion(result.map { data in
-                self?.cache.save(data, for: url) { _ in }
+                self?.saveCacheIgnoresResult(data, url: url)
                 return data
             })
         }
+    }
+}
+
+private extension FeedImageDataLoaderCacheDecorator {
+    func saveCacheIgnoresResult(_ data: Data, url: URL) {
+        self.cache.save(data, for: url) { _ in }
     }
 }

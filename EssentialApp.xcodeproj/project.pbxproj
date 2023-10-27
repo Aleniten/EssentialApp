@@ -142,6 +142,7 @@
 		2882DBD62AEAC22600325932 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
+				28B46C6F2AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift */,
 				28B46C642AEBF60800D31BEE /* FeedLoaderCacheDecorator.swift */,
 				28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */,
 				280651D12AEAE85100635A2D /* FeedLoaderWithFallbackComposite.swift */,
@@ -152,7 +153,6 @@
 				2882DBE02AEAC22700325932 /* Assets.xcassets */,
 				2882DBE22AEAC22700325932 /* LaunchScreen.storyboard */,
 				2882DBE52AEAC22700325932 /* Info.plist */,
-				28B46C6F2AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";

@@ -25,6 +25,7 @@
 		28B46C572AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		28B46C592AEBE30900D31BEE /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C582AEBE30900D31BEE /* FeedLoaderCacheDecoratorTests.swift */; };
 		28B46C5D2AEBE46000D31BEE /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C5C2AEBE46000D31BEE /* FeedLoaderStub.swift */; };
+		28B46C612AEBE87700D31BEE /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C602AEBE87700D31BEE /* XCTestCase+FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		28B46C562AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		28B46C582AEBE30900D31BEE /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		28B46C5C2AEBE46000D31BEE /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
+		28B46C602AEBE87700D31BEE /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				28B46C5C2AEBE46000D31BEE /* FeedLoaderStub.swift */,
 				28B46C522AEAEFD100D31BEE /* SharedFuncHelpers.swift */,
 				28B46C542AEAF8B900D31BEE /* XCTest+trackingForMemoryLeaks.swift */,
+				28B46C602AEBE87700D31BEE /* XCTestCase+FeedLoader.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B46C5D2AEBE46000D31BEE /* FeedLoaderStub.swift in Sources */,
+				28B46C612AEBE87700D31BEE /* XCTestCase+FeedLoader.swift in Sources */,
 				28B46C502AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				28B46C592AEBE30900D31BEE /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				28B46C532AEAEFD100D31BEE /* SharedFuncHelpers.swift in Sources */,

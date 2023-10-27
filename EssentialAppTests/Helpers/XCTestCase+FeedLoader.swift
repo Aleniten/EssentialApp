@@ -8,7 +8,9 @@
 import XCTest
 import EssentialFeed
 
-extension XCTestCase {
+protocol FeedLoaderTestCase: XCTestCase {}
+
+extension FeedLoaderTestCase {
     func expect(_ sut: FeedLoader, toCompleteWith expectedResult: FeedLoader.Result,file: StaticString = #filePath, line: UInt = #line) {
         let exp = expectation(description: "Wait to load feed")
         sut.load { receivedResult in

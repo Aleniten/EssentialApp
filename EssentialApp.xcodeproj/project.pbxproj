@@ -152,17 +152,17 @@
 		280651D82AEAEA3700635A2D /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				28B46CB62AF130B300D31BEE /* FeedUIIntegrationTests.swift */,
+				28B46C872AF1286000D31BEE /* SceneDelegateTests.swift */,
+				2892C21C2AF140DE00A9A887 /* FeedAcceptanceTests.swift */,
 				2892C21A2AF1351900A9A887 /* snapshots */,
 				2892C2152AF134B600A9A887 /* FeedUISnapshotTests.swift */,
 				28B46C512AEAEFB200D31BEE /* Helpers */,
-				28B46CB62AF130B300D31BEE /* FeedUIIntegrationTests.swift */,
-				28B46C872AF1286000D31BEE /* SceneDelegateTests.swift */,
 				28B46C672AEBF85100D31BEE /* FeedImageDataLoaderCacheDecoratorTests.swift */,
 				28B46C4F2AEAECC300D31BEE /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				28B46C582AEBE30900D31BEE /* FeedLoaderCacheDecoratorTests.swift */,
 				280651E22AEAEAF700635A2D /* FeedLoaderWithFallbackCompositeTests.swift */,
 				280651E12AEAEA7700635A2D /* EssentialApp.xctestplan */,
-				2892C21C2AF140DE00A9A887 /* FeedAcceptanceTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";

@@ -52,6 +52,7 @@
 		28B46CAB2AF1307400D31BEE /* FeedUIIntegrationTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46CA02AF1307400D31BEE /* FeedUIIntegrationTests+Localization.swift */; };
 		28B46CAC2AF1307400D31BEE /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46CA12AF1307400D31BEE /* XCTestCase+Snapshot.swift */; };
 		28B46CB82AF130B300D31BEE /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46CB62AF130B300D31BEE /* FeedUIIntegrationTests.swift */; };
+		28EF0E022AF2DED100F72801 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EF0E012AF2DED100F72801 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		28B46CA02AF1307400D31BEE /* FeedUIIntegrationTests+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+Localization.swift"; sourceTree = "<group>"; };
 		28B46CA12AF1307400D31BEE /* XCTestCase+Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Snapshot.swift"; sourceTree = "<group>"; };
 		28B46CB62AF130B300D31BEE /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
+		28EF0E012AF2DED100F72801 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 				2882DBE02AEAC22700325932 /* Assets.xcassets */,
 				2882DBE22AEAC22700325932 /* LaunchScreen.storyboard */,
 				2882DBE52AEAC22700325932 /* Info.plist */,
+				28EF0E012AF2DED100F72801 /* CombineHelpers.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				28B46C8F2AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift in Sources */,
 				28B46C652AEBF60800D31BEE /* FeedLoaderCacheDecorator.swift in Sources */,
 				2882DBDA2AEAC22600325932 /* SceneDelegate.swift in Sources */,
+				28EF0E022AF2DED100F72801 /* CombineHelpers.swift in Sources */,
 				28B46C572AEB08EB00D31BEE /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				28B46C702AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
 				28B46C932AF12F8F00D31BEE /* WeakRefVirtualProxy.swift in Sources */,

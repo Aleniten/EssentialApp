@@ -53,7 +53,7 @@ public extension FeedLoader {
 extension Publisher where Output == [FeedImage] {
     func caching(to cache: FeedCache) -> AnyPublisher<Output, Failure> {
         handleEvents(receiveOutput: cache.savesIgnoresResult)
-        .eraseToAnyPublisher()
+            .eraseToAnyPublisher()
     }
 }
 

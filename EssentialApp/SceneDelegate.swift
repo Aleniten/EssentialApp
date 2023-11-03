@@ -82,4 +82,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 }
 
-extension RemoteLoader: FeedLoader where Resource == [FeedImage] {}
+// Not needed for combine framework
+//extension RemoteLoader: FeedLoader where Resource == [FeedImage] {}

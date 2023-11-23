@@ -34,7 +34,7 @@
 		28B46C6C2AEC00AC00D31BEE /* XCTestCase+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C6B2AEC00AC00D31BEE /* XCTestCase+FeedImageDataLoader.swift */; };
 		28B46C702AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C6F2AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift */; };
 		28B46C882AF1286000D31BEE /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C872AF1286000D31BEE /* SceneDelegateTests.swift */; };
-		28B46C8F2AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C892AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift */; };
+		28B46C8F2AF12F8F00D31BEE /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C892AF12F8F00D31BEE /* LoadResourcePresentationAdapter.swift */; };
 		28B46C902AF12F8F00D31BEE /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C8A2AF12F8F00D31BEE /* FeedUIComposer.swift */; };
 		28B46C912AF12F8F00D31BEE /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C8B2AF12F8F00D31BEE /* MainQueueDispatchDecorator.swift */; };
 		28B46C922AF12F8F00D31BEE /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B46C8C2AF12F8F00D31BEE /* FeedImageDataLoaderPresentationAdapter.swift */; };
@@ -110,7 +110,7 @@
 		28B46C6B2AEC00AC00D31BEE /* XCTestCase+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
 		28B46C6F2AEC2E9D00D31BEE /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 		28B46C872AF1286000D31BEE /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
-		28B46C892AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		28B46C892AF12F8F00D31BEE /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		28B46C8A2AF12F8F00D31BEE /* FeedUIComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
 		28B46C8B2AF12F8F00D31BEE /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		28B46C8C2AF12F8F00D31BEE /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				2882DBE22AEAC22700325932 /* LaunchScreen.storyboard */,
 				28B46C8A2AF12F8F00D31BEE /* FeedUIComposer.swift */,
 				28B46C8B2AF12F8F00D31BEE /* MainQueueDispatchDecorator.swift */,
-				28B46C892AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift */,
+				28B46C892AF12F8F00D31BEE /* LoadResourcePresentationAdapter.swift */,
 				28B46C8C2AF12F8F00D31BEE /* FeedImageDataLoaderPresentationAdapter.swift */,
 				28B46C8E2AF12F8F00D31BEE /* FeedViewAdapter.swift */,
 				28B46C8D2AF12F8F00D31BEE /* WeakRefVirtualProxy.swift */,
@@ -385,7 +385,7 @@
 				2882DBDC2AEAC22600325932 /* ViewController.swift in Sources */,
 				2882DBD82AEAC22600325932 /* AppDelegate.swift in Sources */,
 				280651D22AEAE85100635A2D /* FeedLoaderWithFallbackComposite.swift in Sources */,
-				28B46C8F2AF12F8F00D31BEE /* FeedLoaderPresentationAdapter.swift in Sources */,
+				28B46C8F2AF12F8F00D31BEE /* LoadResourcePresentationAdapter.swift in Sources */,
 				28B46C652AEBF60800D31BEE /* FeedLoaderCacheDecorator.swift in Sources */,
 				2882DBDA2AEAC22600325932 /* SceneDelegate.swift in Sources */,
 				28EF0E022AF2DED100F72801 /* CombineHelpers.swift in Sources */,
